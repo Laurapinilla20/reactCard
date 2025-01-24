@@ -1,0 +1,103 @@
+.card-container{
+    width: 400px;
+    box-shadow: 0px 8px 8px #181818;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(27, 27, 27);
+    color: #dedede;
+    height: fit-content;
+    border-radius: 1rem;
+}
+
+.content-container{
+    text-align: center;
+}
+
+.card-img{
+    border-radius: 1rem 1rem 0rem 0rem;
+    width: 100%;
+}
+
+.card-title{
+    margin-top: 10px;
+    font-size: 24px;
+}
+.card-subtitle{
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.card-link{
+    text-decoration: none;
+    color: #37b5a0;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+.btns{
+    display: flex;   
+    margin-top: 15px;
+    justify-content: center; 
+    align-items: center;  
+    gap: 20px; 
+
+}
+
+.btn1{
+    display: flex;            
+    align-items: center;      
+    padding: 8px 40px;       
+    gap: 10px;            
+    border: none;        
+    border-radius: 5px;  
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);            
+    font-size: 16px;        
+    cursor: pointer;
+    
+}
+
+.btn2{
+    display: flex;            
+    align-items: center;      
+    padding: 8px 40px;       
+    gap: 10px;            
+    border: none;        
+    border-radius: 5px;  
+    background-color: #0077b5;
+    color: #ffffff;
+    font-size: 16px;        
+    cursor: pointer;
+}
+
+.card-subtitle-body{
+    padding: 30px 0px 0px 30px;
+    font-size: 16px;
+}
+
+.card-description{
+    padding: 10px 30px 0px 30px;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.footer{
+    background-color: rgb(19, 19, 19);
+    color: #ffffff;
+    border-radius: 0rem 0rem 1rem 1rem;
+    display: flex;   
+    margin-top: 15px;
+    justify-content: center; 
+    align-items: center;  
+    gap: 20px; 
+}
+
+.footer a {
+    color: white;           
+    font-size: 24px;         
+    padding:10px 20px 10px 20px;
+  }
+  .footer a:hover {
+    color: #37b5a0;
+  }
